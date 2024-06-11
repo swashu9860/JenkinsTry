@@ -10,7 +10,7 @@ public class day1 {
 		
 		String str = "abc56xyz";
 		
-		//cba zyx
+		//cba zyx//trying firsst commit
 		
 		//String [] strsplit = str.split(" ");
 		 
