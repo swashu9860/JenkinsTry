@@ -8,18 +8,9 @@ import java.util.stream.Collectors;
 public class day1 {
 	public static void main(String [] args) {
 		
-		String str = "abc56xyz";
-		
-		//cba zyx//trying firsst commit
-		
-		//String [] strsplit = str.split(" ");
-		 
+		String str = "abc56xyz";				 
 		String [] strsplit2 = str.split("[a-zA-Z]+");
-		System.out.println(strsplit2[0]);
-		//String revH1 = reversestr(strsplit[0]);
-		//String revH2 = reversestr(strsplit[1]);
-		
-		///System.out.println( revH1 + " " + revH2);
+		System.out.println(strsplit2[0]);		
 			}
 	
 	public static String reversestr(String strs) {
